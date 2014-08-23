@@ -1,0 +1,14 @@
+diff -Nru REminiscence-0.1.9/systemstub_sdl.cpp REminiscence-0.1.9-sndfix/systemstub_sdl.cpp
+--- REminiscence-0.1.9/systemstub_sdl.cpp	2007-03-16 22:46:34.000000000 +0100
++++ REminiscence-0.1.9-sndfix/systemstub_sdl.cpp	2008-01-26 16:11:22.000000000 +0100
+@@ -454,8 +454,8 @@
+ void SystemStub_SDL::startAudio(AudioCallback callback, void *param) {
+ 	SDL_AudioSpec desired;
+ 	memset(&desired, 0, sizeof(desired));
+-	desired.freq = SOUND_SAMPLE_RATE;
+-	desired.format = AUDIO_S8;
++	desired.freq = SOUND_SAMPLE_RATE/2;
++	desired.format = AUDIO_S16;
+ 	desired.channels = 1;
+ 	desired.samples = 2048;
+ 	desired.callback = callback;
