@@ -3,9 +3,9 @@ REminiscence-0.1.9 for BeOS
 
 This is a BeOS port of REminiscence - a recreation of Flashback:
 
-![Screenshot 1](/screenshot/bereminisc01.png.png?raw=true "Screenshot from BeOS")
-![Screenshot 2](/screenshot/bereminisc02.png.png?raw=true "Screenshot from BeOS")
-![Screenshot 3](/screenshot/bereminisc03.png.png?raw=true "Screenshot from BeOS")
+![Screenshot 1](/screenshot/bereminisc01.png?raw=true "Screenshot from BeOS")
+![Screenshot 2](/screenshot/bereminisc02.png?raw=true "Screenshot from BeOS")
+![Screenshot 3](/screenshot/bereminisc03.png?raw=true "Screenshot from BeOS")
 
 #REQUIREMENTS
 
